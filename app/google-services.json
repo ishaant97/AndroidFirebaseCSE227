@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12008962992",
+    "project_id": "androidfirebase-cse227",
+    "storage_bucket": "androidfirebase-cse227.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12008962992:android:71f6c4eb3620e753a77475",
+        "android_client_info": {
+          "package_name": "com.example.androidfirebase227"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5qtthFyrkZvA781raVkpqSl136yXA1v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
