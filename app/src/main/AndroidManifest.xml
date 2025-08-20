@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFirebase227">
         <activity
+            android:name=".advancedCRUD.ReadDataFromFirebase"
+            android:exported="true" />
+        <activity
+            android:name=".advancedCRUD.Home"
+            android:exported="true" />
+        <activity
             android:name=".crudOperations.CRUDHome"
             android:exported="true" />
         <activity

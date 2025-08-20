@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    tools:context=".advancedCRUD.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- User ID -->
+        <EditText
+            android:id="@+id/userIdEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter User Id"
+            android:inputType="number"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- Class -->
+        <EditText
+            android:id="@+id/classEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Class"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- Roll Number -->
+        <EditText
+            android:id="@+id/rollNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll number"
+            android:inputType="number"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- Section -->
+        <EditText
+            android:id="@+id/sectionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Section"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- Address -->
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/phoneNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:inputType="number"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- University -->
+        <EditText
+            android:id="@+id/universityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="University"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"/>
+
+        <!-- Post Button -->
+        <Button
+            android:id="@+id/postFirebaseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="14dp"
+            android:background="@drawable/rounded_button"
+            android:clickable="true"
+            android:text="Post to Firebase database"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:elevation="3dp"
+            android:gravity="center"/>
+
+        <!-- Read Button -->
+        <Button
+            android:id="@+id/readFirebaseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:backgroundTint="@null"
+            android:background="@drawable/rounded_button"
+            android:clickable="true"
+            android:text="Read from Firebase database"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:elevation="3dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
