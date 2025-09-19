@@ -3,6 +3,7 @@ package com.example.androidfirebase227.crudOperations
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -21,7 +22,7 @@ class CRUDHome : AppCompatActivity() {
     private lateinit var updateButton: Button
     private lateinit var deleteButton: Button
     private lateinit var readButton: Button
-    private lateinit var resultTextView: EditText
+    private lateinit var resultTextView: TextView
     private lateinit var database: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
